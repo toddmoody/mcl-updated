@@ -1,4 +1,55 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
 
+p, h1 {
+    font-family: Poly, serif;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.banner-pre {
+    font-size: 1.15rem !important;
+}
+
+.banner-main {
+    font-size: 2.85rem;
+}
+
+// section top padding
+.section-top {
+    padding-top: 72px !important;
+}
+
+.section-header {
+    padding-top: 0px;
+}
+
+// navbar styles
+.navbar-brand {
+    font-family: Poly, serif;
+    font-size: 1.45rem;
+    font-weight: 500;
+}
+
+.navbar-dark {
+    .btn-outline-primary {
+        border-color: #aead9d;
+        color: white;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #aead9d;
+}
+
+.img-effect-info-popup {
+    background-color: #2f5f55;
+}
+
+// home page
 .ql-feature {
     padding: 1.65rem;
     text-decoration: none !important;
@@ -13,14 +64,35 @@
         &:hover {
             border: 1px solid #aead9d;
             background-color: #fff;
+            h4 {
+                color: #aead9d;
+            }
         }
         h4 {
             margin-bottom: 0!important;
             color: #fff;
-            &:hover {
-                color: #aead9d;
-            }
         }
+    }
+}
+
+#mc_embed_signup_scroll {
+    justify-content: center;
+}
+
+#tour {
+    padding-bottom: 165px;
+}
+
+.home-hr {
+    margin: 0;
+}
+
+// awards
+.brand-item {
+    height: 200px;
+    border: none;
+    img {
+        height: 5.5rem;
     }
 }
 
@@ -49,7 +121,7 @@
         a {
             i {
                 font-size: 1.25rem;
-                color: white;
+                // color: white;
             }
         }
     }

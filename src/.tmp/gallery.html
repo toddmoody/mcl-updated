@@ -1,438 +1,514 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
-    <link rel="manifest" href="assets/ico/site.webmanifest">
-    <link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/ico/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="node_modules/flickity/dist/flickity.min.css">
-    <link rel="stylesheet" href="node_modules/flickity-fade/flickity-fade.css">
-    <link rel="stylesheet" href="node_modules/fullpage.js/dist/fullpage.min.css">
-    <link rel="stylesheet" href="node_modules/highlightjs/styles/codepen-embed.css">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <!-- build:css assets/libs/incline-icons/style.min.css -->
-    <link rel="stylesheet" href="assets/libs/incline-icons/style.css">
-    <!-- endbuild -->
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+  <link rel="manifest" href="assets/ico/site.webmanifest">
+  <link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="assets/ico/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
-    <!-- Theme CSS -->
-    <!-- build:css assets/css/theme.min.css -->
-    <link rel="stylesheet" href="assets/css/theme.css">
-    <!-- endbuild -->
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="node_modules/flickity/dist/flickity.min.css">
+  <link rel="stylesheet" href="node_modules/flickity-fade/flickity-fade.css">
+  <link rel="stylesheet" href="node_modules/fullpage.js/dist/fullpage.min.css">
+  <link rel="stylesheet" href="node_modules/highlightjs/styles/codepen-embed.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- build:css assets/libs/incline-icons/style.min.css -->
+  <link rel="stylesheet" href="assets/libs/incline-icons/style.css">
+  <!-- endbuild -->
 
-    <title>Matamata Country Lodge | Image Gallery</title>
+  <!-- Theme CSS -->
+  <!-- build:css assets/css/theme.min.css -->
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <!-- endbuild -->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <title>Matamata Country Lodge | Image Gallery</title>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123194273-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <title>Matamata Country Lodge | Image Gallery</title>
 
-      gtag('config', 'UA-123194273-1');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <title>Matamata Country Lodge | Image Gallery</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123194273-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  </head>
-  <body>
+    gtag('config', 'UA-123194273-1');
+  </script>
+</head>
 
-      <!-- <div class="alert alert-warning alert-dismissible fade show alert-home" role="alert">
+<body>
+
+  <!-- <div class="alert alert-warning alert-dismissible fade show alert-home" role="alert">
           Need assistance? <strong><a href="contact.html">contact us.</a></strong>
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true"><i class="fas fa-times"></i></span>
           </button>
       </div> -->
 
-    <!-- NAVBAR
+  <!-- NAVBAR
     ================================================= -->
-    <nav class="navbar navbar-expand-xl navbar-light  fixed-top">
+  <nav class="navbar navbar-expand-xl navbar-light  fixed-top">
 
-      <div class="container">
-
-
-
-        <!-- Brand -->
-        <a class="navbar-brand" href="index.html">Matamata Country Lodge
-        </a>
-
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Collapse -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-
-          <!-- Social -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item-divider">
-              <span class="nav-link">
-                <span></span>
-              </span>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">
-                <i class="fas fa-phone-square"></i>
-                <span class="d-xl-none ml-2">
-                  Phone
-                </span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">
-                <i class="fas fa-envelope"></i>
-                <span class="d-xl-none ml-2">
-                  Email
-                </span>
-              </a>
-            </li>
-          </ul>
-
-          <!-- Links -->
-          <ul class="navbar-nav ml-auto">
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Welcome
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                <a class="dropdown-item " href="index.html">
-                  Header: Image
-                </a>
-                <a class="dropdown-item " href="index-header-carousel.html">
-                  Header: Carousel
-                </a>
-                <a class="dropdown-item " href="index-header-parallax.html">
-                  Header: Parallax
-                </a>
-                <a class="dropdown-item " href="index-header-video.html">
-                  Header: Video
-                </a>
-              </div>
-            </li> -->
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarLandings" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Landings
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarLandings">
-                <a class="dropdown-item " href="app.html">
-                  App
-                </a>
-                <a class="dropdown-item " href="fullpage.html">
-                  Fullpage
-                </a>
-                <a class="dropdown-item " href="product.html">
-                  Product
-                </a>
-                <a class="dropdown-item " href="real-estate.html">
-                  Real estate
-                </a>
-                <a class="dropdown-item " href="service.html">
-                  Service
-                </a>
-              </div>
-            </li> -->
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarPages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Pages
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarPages">
-                <a class="dropdown-item " href="about.html">
-                  About
-                </a>
-                <a class="dropdown-item " href="checkout.html">
-                  Checkout
-                </a>
-                <a class="dropdown-item " href="contact.html">
-                  Contact
-                </a>
-                <a class="dropdown-item " href="faq.html">
-                  FAQ
-                </a>
-                <a class="dropdown-item " href="pricing.html">
-                  Pricing
-                </a>
-                <a class="dropdown-item " href="sign-in.html">
-                  Sign In
-                </a>
-                <a class="dropdown-item " href="sign-up.html">
-                  Sign Up
-                </a>
-                <a class="dropdown-item " href="404.html">
-                  404
-                </a>
-              </div>
-            </li> -->
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarComponents" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Components
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarComponents">
-                <a class="dropdown-item " href="components-theme.html">
-                  Theme
-                </a>
-                <a class="dropdown-item " href="components-bootstrap.html">
-                  Bootstrap
-                </a>
-              </div>
-            </li> -->
-            <li class="nav-item ">
-              <a href="lifestyle.html" class="nav-link">
-                Lifestyle
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a href="care.html" class="nav-link">
-                Care & accommodation
-              </a>
-            </li>
-            <li class="nav-item  active ">
-              <a href="gallery.html" class="nav-link">
-                Gallery
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a href="about.html" class="nav-link">
-                History
-              </a>
-            </li>
-            <li class="nav-item-divider">
-              <!-- <span class="nav-link">
-                <span></span>
-              </span> -->
-            </li>
-            <li class="nav-item">
-                <a href="contact.html" target="_blank" class="btn btn-outline-primary nav-btn">
-                  Contact us
-                </a>
-            </li>
-          </ul>
-        </div> <!-- / .navbar-collapse -->
-
-      </div> <!-- / .container -->
-    </nav>
-
-
-            <!-- BREADCRUMB
-    ================================================== -->
-    <nav class="breadcrumb">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col">
-
-              <!-- Heading -->
-              <h5 class="breadcrumb-heading">
-                Gallery
-              </h5>
-
-            </div>
-            <div class="col-auto">
-
-              <!-- Breadcrumb -->
-              <span class="breadcrumb-item">
-                <a href="index.html">Home</a>
-              </span>
-              <span class="breadcrumb-item active">
-                Gallery
-              </span>
-
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-      </nav>
-
-    <section id="gallery" class="pt-9">
-        <h1>Yolo gallery</h1>
-    </section>
-
-    <!-- FOOTER
-    ================================================== -->
-    
-              <!-- Awards & affiliations
-      ================================================== -->
-
-      <section class="section bg-light pt-9">
-
-        <!-- Content -->
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-
-
-
-              <!-- Brands -->
-              <div class="form-row align-items-center">
-                <div class="col-sm-12 col-lg-3">
-
-                    <!-- Heading -->
-                    <h3 class="mb-6 header-ctr">
-                      Awards and <span class="text-primary">affiliations:</span>
-                    </h3>
-
-
-                  </div>
-                <div class="col-sm-12 col-lg-3">
-
-                  <!-- Item -->
-                  <a href="https://www.health.govt.nz/your-health/services-and-support/health-care-services/services-older-people/rest-home-certification-and-audits" target="blank" class="brand-item mb-3 mb-md-0">
-                    <img src="../assets/img/4-year-ftr.png" alt="4-year certification">
-                  </a>
-
-                </div>
-                <div class="col-sm-12 col-lg-3">
-
-                  <!-- Item -->
-                  <a href="https://www.retirementvillages.org.nz/" target="blank" class="brand-item mb-3 mb-md-0">
-                      <img src="../assets/img/rva-ftr.png" alt="Retirement Villages Association">
-                  </a>
-
-                </div>
-                <div class="col-sm-12 col-lg-3">
-
-                  <!-- Item -->
-                  <a href="https://www.nzaca.org.nz/" target="blank" class="brand-item mb-3 mb-md-0">
-                      <img src="../assets/img/aged-care-ftr.png" alt="Aged Care Association">
-                  </a>
-
-                </div>
-              </div> <!-- / .row -->
-
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-
-      </section>
-
-    <footer class="section bg-dark">
-
-    <!-- Triangles -->
-    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
-    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
-
-    <!--Content -->
     <div class="container">
-      <div class="row align-self-center">
-        <div class="col-md-auto">
 
-          <!-- Brand -->
-          <p>
-            <img src="../assets/img/favicon.png" class="mr-2" /> <span class="footer-caption">Matamata Country Lodge / Est. 1992</span>
-          </p>
 
-        </div>
-        <div class="col-md">
 
-          <!-- Links -->
-          <ul class="footer-links">
-            <li>
-              <a href="../lifestyle.html" class="text-white">
-                Lifestyle
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html">Matamata Country Lodge
+      </a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <!-- Social -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item-divider">
+            <span class="nav-link">
+              <span></span>
+            </span>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              <i class="fas fa-phone-square"></i>
+              <span class="d-xl-none ml-2">
+                Phone
+              </span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              <i class="fas fa-envelope"></i>
+              <span class="d-xl-none ml-2">
+                Email
+              </span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Welcome
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+              <a class="dropdown-item " href="index.html">
+                Header: Image
               </a>
-            </li>
-            <li>
-              <a href="../care.html" class="text-white">
-                Care & accommodation
+              <a class="dropdown-item " href="index-header-carousel.html">
+                Header: Carousel
               </a>
-            </li>
-            <li>
-              <a href="../contact.html" class="text-white">
+              <a class="dropdown-item " href="index-header-parallax.html">
+                Header: Parallax
+              </a>
+              <a class="dropdown-item " href="index-header-video.html">
+                Header: Video
+              </a>
+            </div>
+          </li> -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarLandings" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Landings
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarLandings">
+              <a class="dropdown-item " href="app.html">
+                App
+              </a>
+              <a class="dropdown-item " href="fullpage.html">
+                Fullpage
+              </a>
+              <a class="dropdown-item " href="product.html">
+                Product
+              </a>
+              <a class="dropdown-item " href="real-estate.html">
+                Real estate
+              </a>
+              <a class="dropdown-item " href="service.html">
+                Service
+              </a>
+            </div>
+          </li> -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarPages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarPages">
+              <a class="dropdown-item " href="about.html">
+                About
+              </a>
+              <a class="dropdown-item " href="checkout.html">
+                Checkout
+              </a>
+              <a class="dropdown-item " href="contact.html">
+                Contact
+              </a>
+              <a class="dropdown-item " href="faq.html">
+                FAQ
+              </a>
+              <a class="dropdown-item " href="pricing.html">
+                Pricing
+              </a>
+              <a class="dropdown-item " href="sign-in.html">
+                Sign In
+              </a>
+              <a class="dropdown-item " href="sign-up.html">
+                Sign Up
+              </a>
+              <a class="dropdown-item " href="404.html">
+                404
+              </a>
+            </div>
+          </li> -->
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarComponents" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Components
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarComponents">
+              <a class="dropdown-item " href="components-theme.html">
+                Theme
+              </a>
+              <a class="dropdown-item " href="components-bootstrap.html">
+                Bootstrap
+              </a>
+            </div>
+          </li> -->
+          <li class="nav-item ">
+            <a href="lifestyle.html" class="nav-link">
+              Lifestyle
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="care.html" class="nav-link">
+              Care & accommodation
+            </a>
+          </li>
+          <li class="nav-item  active ">
+            <a href="gallery.html" class="nav-link">
+              Gallery
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="about.html" class="nav-link">
+              History
+            </a>
+          </li>
+          <li class="nav-item-divider">
+            <!-- <span class="nav-link">
+              <span></span>
+            </span> -->
+          </li>
+          <li class="nav-item">
+              <a href="contact.html" class="btn btn-outline-primary nav-btn">
                 Contact us
               </a>
-            </li>
-          </ul>
+          </li>
+        </ul>
+      </div> <!-- / .navbar-collapse -->
 
-        </div>
-      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </nav>
+
+
+  <!-- BREADCRUMB
+    ================================================== -->
+  <nav class="breadcrumb">
+    <div class="container">
       <div class="row align-items-center">
-        <div class="col-md">
+        <div class="col">
 
-          <!-- Copyright -->
-          <p class="text-white text-muted">
-            <small>
-              &copy; Copyright <span class="current-year"></span> Matamata Country Lodge
-            </small>
-          </p>
+          <!-- Heading -->
+          <h5 class="breadcrumb-heading">
+            Gallery
+          </h5>
 
         </div>
-        <div class="col-md">
+        <div class="col-auto">
 
-          <!-- Social links -->
-          <ul class="social-links text-md-right">
-            <li>
-              <a href="../contact.html">
-                <i class="fas fa-phone"></i>
-              </a>
-            </li>
-            <li>
-              <a href="../contact.html">
-                <i class="fas fa-envelope"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/matamatacountrylodge/" target="blank">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.google.co.nz/search?q=matamata+country+loddge&rlz=1C5CHFA_enNZ767NZ767&oq=matamata+cou&aqs=chrome.0.69i59j69i60l2j0l2j69i57.4230j0j7&sourceid=chrome&ie=UTF-8#lrd=0x6d6db1fde5d08f83:0xc8a7c2d9f7fbc8f1,1,,," target="blank">
-                <i class="fab fa-google"></i>
-              </a>
-            </li>
-          </ul>
+          <!-- Breadcrumb -->
+          <span class="breadcrumb-item">
+            <a href="index.html">Home</a>
+          </span>
+          <span class="breadcrumb-item active">
+            Gallery
+          </span>
 
         </div>
       </div> <!-- / .row -->
     </div> <!-- / .container -->
+  </nav>
 
-    </footer>
+  <section class="section section-top section-full">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/care-38.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/care-39.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/care-41.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-15-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-new-5-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/indoor-4-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/drone-1-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/outdoor-3-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/intro-img-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-jan-3-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-gard-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-9-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-40-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-100-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-new-1-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-new-2-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-new-3-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-new-8-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-new-6-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-new-9-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-jan-12-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-jan-15-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-jan-20-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+        <div class="col-sm-12 col-md-4 mb-3">
+          <img src="./assets/img/gallery-jan-50-updated.jpg" alt="" class="fluid img-thumbnail">
+        </div>
+    </div>
+  </section>
 
-
-
-    <!-- JAVASCRIPT
+  <!-- FOOTER
     ================================================== -->
-    <!-- Global JS -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
+  
+            <!-- Awards & affiliations
+    ================================================== -->
 
-    <!-- Plugins JS -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="node_modules/flickity/dist/flickity.pkgd.min.js"></script>
-    <script src="node_modules/flickity-fade/flickity-fade.js"></script>
-    <script src="node_modules/jquery-parallax.js/parallax.min.js"></script>
-    <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
-    <script src="node_modules/waypoints/lib/shortcuts/inview.min.js"></script>
-    <script src="node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
-    <script src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
-    <script src="node_modules/highlightjs/highlight.pack.min.js"></script>
+    <section class="section bg-light pt-9">
 
-    <!-- Theme JS -->
-    <!-- build:js assets/js/theme.min.js -->
-    <script src="assets/js/animation.js"></script>
-    <script src="assets/js/alert.js"></script>
-    <script src="assets/js/code.js"></script>
-    <script src="assets/js/dropdown.js"></script>
-    <script src="assets/js/faq.js"></script>
-    <script src="assets/js/fullpage.js"></script>
-    <script src="assets/js/map.js"></script>
-    <script src="assets/js/modal.js"></script>
-    <script src="assets/js/navbar.js"></script>
-    <script src="assets/js/newsletter.js"></script>
-    <script src="assets/js/polyfill.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/testimonials.js"></script>
-    <script src="assets/js/year.js"></script>
-    <!-- endbuild -->
+      <!-- Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
 
 
-  </body>
+
+            <!-- Brands -->
+            <div class="form-row align-items-center">
+              <div class="col-sm-12 col-lg-3">
+
+                  <!-- Heading -->
+                  <h3 class="mb-6 header-ctr">
+                    Awards and <span class="text-primary">affiliations:</span>
+                  </h3>
+
+
+                </div>
+              <div class="col-sm-12 col-lg-3">
+
+                <!-- Item -->
+                <a href="https://www.health.govt.nz/your-health/services-and-support/health-care-services/services-older-people/rest-home-certification-and-audits" target="blank" class="brand-item mb-3 mb-md-0">
+                  <img src="../assets/img/4-year-ftr.png" alt="4-year certification">
+                </a>
+
+              </div>
+              <div class="col-sm-12 col-lg-3">
+
+                <!-- Item -->
+                <a href="https://www.retirementvillages.org.nz/" target="blank" class="brand-item mb-3 mb-md-0">
+                    <img src="../assets/img/rva-ftr.png" alt="Retirement Villages Association">
+                </a>
+
+              </div>
+              <div class="col-sm-12 col-lg-3">
+
+                <!-- Item -->
+                <a href="https://www.nzaca.org.nz/" target="blank" class="brand-item mb-3 mb-md-0">
+                    <img src="../assets/img/aged-care-ftr.png" alt="Aged Care Association">
+                </a>
+
+              </div>
+            </div> <!-- / .row -->
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+  <footer class="section bg-dark">
+
+  <!-- Triangles -->
+  <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+  <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+
+  <!--Content -->
+  <div class="container">
+    <div class="row align-self-center">
+      <div class="col-md-auto">
+
+        <!-- Brand -->
+        <p>
+          <img src="../assets/img/favicon.png" class="mr-2" /> <span class="footer-caption">Matamata Country Lodge / Est. 1992</span>
+        </p>
+
+      </div>
+      <div class="col-md">
+
+        <!-- Links -->
+        <ul class="footer-links">
+          <li>
+            <a href="../lifestyle.html" class="text-white">
+              Lifestyle
+            </a>
+          </li>
+          <li>
+            <a href="../care.html" class="text-white">
+              Care & accommodation
+            </a>
+          </li>
+          <li>
+            <a href="../contact.html" class="text-white">
+              Contact us
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div> <!-- / .row -->
+    <div class="row align-items-center">
+      <div class="col-md">
+
+        <!-- Copyright -->
+        <p class="text-white text-muted">
+          <small>
+            &copy; Copyright <span class="current-year"></span> Matamata Country Lodge
+          </small>
+        </p>
+
+      </div>
+      <div class="col-md">
+
+        <!-- Social links -->
+        <ul class="social-links text-md-right">
+          <li>
+            <a href="../contact.html">
+              <i class="fas fa-phone"></i>
+            </a>
+          </li>
+          <li>
+            <a href="../contact.html">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/matamatacountrylodge/" target="blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.co.nz/search?q=matamata+country+loddge&rlz=1C5CHFA_enNZ767NZ767&oq=matamata+cou&aqs=chrome.0.69i59j69i60l2j0l2j69i57.4230j0j7&sourceid=chrome&ie=UTF-8#lrd=0x6d6db1fde5d08f83:0xc8a7c2d9f7fbc8f1,1,,," target="blank">
+              <i class="fab fa-google"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+
+  </footer>
+
+
+
+  <!-- JAVASCRIPT
+    ================================================== -->
+  <!-- Global JS -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
+
+  <!-- Plugins JS -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/flickity/dist/flickity.pkgd.min.js"></script>
+  <script src="node_modules/flickity-fade/flickity-fade.js"></script>
+  <script src="node_modules/jquery-parallax.js/parallax.min.js"></script>
+  <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="node_modules/waypoints/lib/shortcuts/inview.min.js"></script>
+  <script src="node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
+  <script src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
+  <script src="node_modules/highlightjs/highlight.pack.min.js"></script>
+
+  <!-- Theme JS -->
+  <!-- build:js assets/js/theme.min.js -->
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/alert.js"></script>
+  <script src="assets/js/code.js"></script>
+  <script src="assets/js/dropdown.js"></script>
+  <script src="assets/js/faq.js"></script>
+  <script src="assets/js/fullpage.js"></script>
+  <script src="assets/js/map.js"></script>
+  <script src="assets/js/modal.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/newsletter.js"></script>
+  <script src="assets/js/polyfill.js"></script>
+  <script src="assets/js/slider.js"></script>
+  <script src="assets/js/testimonials.js"></script>
+  <script src="assets/js/year.js"></script>
+  <!-- endbuild -->
+
+
+</body>
+
 </html>
