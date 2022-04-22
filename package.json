@@ -28,7 +28,7 @@
     "bootstrap": "4.3.1",
     "flickity": "^2.1.2",
     "flickity-fade": "^1.0.0",
-    "fullpage.js": "^3.0.4",
+    "fullpage.js": "^4.0.5",
     "highlightjs": "^9.12.0",
     "jquery": "^3.3.1",
     "jquery-parallax.js": "^1.5.0",
